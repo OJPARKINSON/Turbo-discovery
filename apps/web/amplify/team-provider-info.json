@@ -10,6 +10,14 @@
       "StackName": "amplify-web-dev-222549",
       "StackId": "arn:aws:cloudformation:eu-west-2:729525448462:stack/amplify-web-dev-222549/29577730-232a-11ed-9968-06f93a263c1c",
       "AmplifyAppId": "d3oga14lbftrd4"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3oga14lbftrd4",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
