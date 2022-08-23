@@ -1,0 +1,8 @@
+web:
+  component: "@sls-next/serverless-component@3.6.0"
+  profile: personal
+  inputs:
+    build:
+      bucketRegion: eu-west-2
+      env:
+        LAMBDA_URL: https://h83klbg0wh.execute-api.eu-west-2.amazonaws.com/production/hello

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/functions/hello.ts"],
+  "sourcesContent": ["import type { APIGatewayProxyResult } from \"aws-lambda\";\n\nexport const handler = async (): Promise<APIGatewayProxyResult> => ({\n  statusCode: 200,\n  body: JSON.stringify({ welcome: \"hello\" }),\n  headers: {\n    \"content-type\": \"application/json\",\n  },\n});\n"],
+  "mappings": "4ZAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAEO,IAAME,EAAU,UAA6C,CAClE,WAAY,IACZ,KAAM,KAAK,UAAU,CAAE,QAAS,OAAQ,CAAC,EACzC,QAAS,CACP,eAAgB,kBAClB,CACF",
+  "names": ["hello_exports", "__export", "handler", "__toCommonJS"]
+}
