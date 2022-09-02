@@ -15,11 +15,6 @@
     "ui": "*"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@sls-next/aws-cloudfront": "^3.7.0",
-    "@sls-next/aws-lambda": "^3.7.0",
-    "@sls-next/aws-sqs": "^3.7.0",
-    "@sls-next/domain": "^3.7.0",
     "@types/node": "^17.0.12",
     "@types/react": "17.0.48",
     "eslint": "7.32.0",
