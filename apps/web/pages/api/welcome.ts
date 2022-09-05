@@ -1,17 +1,13 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import type { NextApiRequest, NextApiResponse } from "next";
-import useSWR from "swr";
-
-const fetcher = (url: string) => fetch(url).then((res) => res.json());
+import { apiURL } from "../../lib/utils";
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
   try {
-    const response = await fetch(
-      "https://h83klbg0wh.execute-api.eu-west-2.amazonaws.com/production/hello"
-    );
+    const response = await fetch(apiURL + "/hello");
 
     const jsonresp = await response.json();
     console.log(jsonresp);
